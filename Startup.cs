@@ -52,9 +52,10 @@ namespace vs_2019_GitHub_Demo
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("<h1>Hello FITSUM</h1>");
+                    await context.Response.WriteAsync("<h1> Hello FITSUM </h1>");
                     await context.Response.WriteAsync("Welcome To MY Site");
                 });
+            });
         }
     }
 }
